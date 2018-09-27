@@ -1,4 +1,3 @@
-require 'pry' 
 def hopper
 	programmer_hash = 
  		{
@@ -58,8 +57,6 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-  binding.pry 
-  c = programmer_hash[:dennis_ritchie][:languages]
 end
 
 def adding_matz
